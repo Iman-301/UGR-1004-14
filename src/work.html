@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="dist/output.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <script defer src="javscr.js"></script>
+</head>
+<body>
+    <header class="sticky w-full bg-gray-900 text-white z-10 ">
+        <section class="flex justify-between items-center p-4">
+          <h1 class="text-3xl font-bold md:text-5xl uppercase text-gray-400">Iman</h1>
+          <button class="pr-5 border-none rounded-full relative">
+            <div class="w-6 h-0.5 bg-gray-400 absolute transform -translate-x-3 -translate-y-2"></div>
+            <div class="w-6 h-0.5 bg-gray-400 absolute transform -translate-x-3"></div>
+            <div class="w-6 h-0.5 bg-gray-400 absolute transform -translate-x-3 translate-y-2"></div>
+          </button>
+        </section>
+        <nav class="hidden">
+          <ul class="flex flex-col space-y-2 p-4">
+            <li><a href="home.html" class="text-gray-400 hover:text-yellow-500">Home</a></li>
+            <li><a href="about.html" class="text-gray-400 hover:text-yellow-500">About me</a></li>
+            <li><a href="#workpage" class="text-gray-400 hover:text-yellow-500">Work</a></li>
+            <li><a href="resource.html" class="text-gray-400 hover:text-yellow-500">Resource</a></li>
+            <li><a href="contact.html" class="text-gray-400 hover:text-yellow-500">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+        
+       
+        
+            <section class="workpage min-h-screen bg-gradient-to-br from-white to-gray-500 pb-36">
+              <h2 class="workpage__heading text-center font-serif font-extrabold pt-8 text-3xl">Welcome to my work</h2>
+              <p class="text-center p-4 text-xl font-serif">In my current role as a Senior Software Engineer at XYZ Tech Solutions, I play a vital role in developing innovative software solutions for our clients in the technology industry. I am responsible for leading the development team, overseeing project timelines, and ensuring the successful delivery of high-quality software products.</p>
+          
+              <section class="workpage__project grid grid-cols-1 sm:grid-cols-2 gap-8 m-8">
+                <section>
+                  <h2 class="project__heading text-center text-3xl font-serif">Projects</h2>
+          
+                  <article class="project__article">
+                    <h3 class="project__title cursor-pointer font-serif text-xl text-center p-2" onclick="description('project1')">Cardio Care Website</h3>
+                    <p class="text-center font-mono pb-5" id="project1">Description: Developed a responsive patient care system with HTML, CSS, and JavaScript. Implemented features like a product catalog, cart functionality, and user authentication.</p>
+                  </article>
+                  <article class="project__article">
+                    <h3 class="project__title cursor-pointer font-serif text-xl text-center pt-3 pb-2" onclick="description('project2')">E-commerce Website</h3>
+                    <p class="project__description text-center font-mono" id="project2">Description: Developed a responsive e-commerce website using React and integrated it with a payment gateway. Implemented features like a product catalog, cart functionality, and user authentication.</p>
+                  </article>
+                </section>
+          
+                <aside class="project__aside">
+                  <img src="img/download.jpg" alt="my mentor"  class="project__image ml-16 rounded-full w-52 h-52 my-5 ">
+                  <p class="project__mentor font-mono text-center">My mentor John is a passionate web developer specializing in front-end technologies. He loves creating engaging user experiences that combine form and function.</p>
+                </aside>
+              </section>
+          
+              <section class="education sm:grid grid-cols-4 ">
+                <h2 class="education__head text-center font-serif col-span-1 text-xl ">Education</h2>
+                <table class="education__table border col-span-3 mr-4">
+                    <tr>
+                      <th class="border">Certification</th>
+                      <th class="border">Institution</th>
+                      <th class="border">Year</th>
+                    </tr>
+                    <tr>
+                      <td class="border">Bachelor of Science in Software Engineering</td>
+                      <td class="border">Addis Ababa University</td>
+                      <td class="border">2023</td>
+                    </tr>
+                    <tr>
+                      <td class="border">Certification in Web Design</td>
+                      <td class="border">Addis Training Center</td>
+                      <td class="border">2020</td>
+                    </tr>
+                  </table>
+              </section>
+          
+              <section class="skill sm:grid grid-cols-3 pt-10">
+                <section class="skillonly pl-8 text-lg">
+                  <h4 class="skillonly__heading text-2xl font-bold">Skills</h4>
+                  <ul class="skillonly__list">
+                    <li class="list-disc">photography
+                      <ul>
+                        <li>art</li>
+                        <li>painting</li>
+                      </ul>
+                    </li>
+                    <li class="list-disc">Writing
+                      <ul>
+                        <li>left handwriting</li>
+                        <li>right handwriting</li>
+                      </ul>
+                    </li>
+                    <li class="list-disc">coding</li>
+                  </ul>
+                </section>
+                <button class="skill__button text-red-950  text-5xl" onclick="location.href='mailto:imanibrahim301@gmail.com'">hire me</button>
+                <p class="skill__quote text-center text-xl font-serif mt-8 ml-6"><q class="skill__quote-text">Let's collaborate on your next project! Contact me to discuss how I can help bring your ideas to life</q></p>
+              </section>
+            </section>
+          
+
+
+
+
+
+    </main>
+    <footer class="flex justify-between bg-black text-gray-400 items-center fixed bottom-0 left-0 w-full">
+        <h1 class="logo uppercase font-bold text-4xl pl-3">Iman</h1>
+        <p>&copy; 2023 Iman. All right reserved </p>
+            <nav class="pr-3">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="#workpage">Work</a></li>
+                    <li><a href="resource.html">Resource</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+    
+                </ul>
+            </nav>
+
+    </footer>
+  
+    
+</body>
+</html>

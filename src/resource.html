@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="dist/output.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <script defer src="javscr.js"></script>
+</head>
+<body>
+    <header class="sticky w-full bg-gray-900 text-white z-10 ">
+        <section class="flex justify-between items-center p-4">
+          <h1 class="text-3xl font-bold md:text-5xl uppercase text-gray-400">Iman</h1>
+          <button class="pr-5 border-none rounded-full relative">
+            <div class="w-6 h-0.5 bg-gray-400 absolute transform -translate-x-3 -translate-y-2"></div>
+            <div class="w-6 h-0.5 bg-gray-400 absolute transform -translate-x-3"></div>
+            <div class="w-6 h-0.5 bg-gray-400 absolute transform -translate-x-3 translate-y-2"></div>
+          </button>
+        </section>
+        <nav class="hidden">
+          <ul class="flex flex-col space-y-2 p-4">
+            <li><a href="home.html" class="text-gray-400 hover:text-yellow-500">Home</a></li>
+            <li><a href="about.html" class="text-gray-400 hover:text-yellow-500">About me</a></li>
+            <li><a href="work.html" class="text-gray-400 hover:text-yellow-500">Work</a></li>
+            <li><a href="#resourcepage" class="text-gray-400 hover:text-yellow-500">Resource</a></li>
+            <li><a href="contact.html" class="text-gray-400 hover:text-yellow-500">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+    <main>
+       
+        <main>
+            <section class="resourcepage border-2 border-black bg-gradient-to-br from-white to-green-200  min-h-screen gap-6 p-4 sm:grid grid-rows-2 pb-40 m-2 text-center">
+              <article class="resourcepage__one sm:grid grid-cols-3 gap-4">
+                <figure class="one__figure border-2 border-dashed m-5 sm:border-dashed border-black p-2 col-span-2 ">
+                  <div class="flex justify-center items-center">
+                  <img src="img/download (1).jpg" alt="book recommendation" class="one__image w-52 h-60 my-5">
+                </div>
+                  <figcaption class="one__figcaption">
+                    <h3 class="one__title text-2xl text-center font-serif">Diving into wreck</h3>
+                    <p class="one__author text-lg text-center font-serif">Author: Adriennie Rich</p>
+                    <p class="one__description text-lg text-center font-serif">Description: It explores themes of self-discovery, identity, and the journey towards empowerment. Through vivid and metaphorical language, Rich takes the reader on a metaphorical dive into the depths of an underwater wreck.</p>
+                    <a href="https://www.barnesandnoble.com/" class="one__more-info text-xl text-center font-serif text-green-500 ">More info</a>
+                  </figcaption>
+                </figure>
+
+
+
+                <section class="one__website border-2 border-dashed border-black p-2 col-span-1 m-5 text-center font-serif text-lg">
+                  <h3 class="website__heading font-bold text-2xl italic">Websites</h3>
+                  <ul class="website__list">
+                    <li class="website__item">
+                      <a href="https://developer.mozilla.org" class="website__link text-green-600">MDN Web Docs</a>
+                      <p class="website__features">Specific features that are valuable:</p>
+                      <ul class="website__sublist">
+                        <li class="website__subitem">Comprehensive Tutorial</li>
+                        <li class="website__subitem">Documentation</li>
+                      </ul>
+                    </li>
+                    <li class="website__item">
+                      <a href="https://www.w3schools.com" class="website__link text-green-600">W3Schools</a>
+                      <p class="website__features">Specific features that are valuable:</p>
+                      <ul class="website__sublist">
+                        <li class="website__subitem">Interactive examples</li>
+                        <li class="website__subitem">Projects to apply your knowledge</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </section>
+              </article>
+
+
+
+
+
+
+
+
+
+
+
+              <article class="resourcepage__two m-5 sm:grid grid-cols-3 gap-4">
+                <section class="two__podcast border-2 border-dashed border-black p-2 col-span-1 text-lg mb-6">
+                  <h2 class="podcast__heading font-serif text-2xl">Audio Resources</h2>
+                  <ul class="podcast__list">
+                    <li class="podcast__item">
+                      <h3 class="podcast__title">ShopTalk Show</h3>
+                      <p class="podcast__host">Host: Dave Rupert</p>
+                      <a href="img/sample-6s.mp3" class="podcast__listen text-green-500">Listen Here</a>
+                    </li>
+                    <li class="podcast__item">
+                      <h3 class="podcast__title">Syntax</h3>
+                      <p class="podcast__host">Host: Wes Bos</p>
+                      <a href="img/sample-12s.mp3" class="podcast__listen text-green-500">Listen Here</a>
+                    </li>
+                  </ul>
+                </section>
+
+
+
+
+
+
+                <section class="two__video border-2 border-dashed border-black p-2 col-span-2 text-lg">
+                  <h2 class="video__heading font-serif text-2xl">Video Resources</h2>
+                  <div class="flex justify-center items-center">
+                  <video src="img/production_id_4875313 (2160p).mp4" controls class="video__player w-60 h-52 my-5"></video>
+                </div>
+                  <p class="video__description">By combining stunning footage, compelling narratives, and an uplifting soundtrack, the video brings to life the incredible work being done by the organization.</p>
+                </section>
+              </article>
+            </section>
+          </main>
+
+    </main>
+    <footer class="flex justify-between bg-black text-gray-400 items-center fixed bottom-0 left-0 w-full">
+        <h1 class="logo uppercase font-bold text-4xl pl-3">Iman</h1>
+        <p>&copy; 2023 Iman. All right reserved </p>
+            <nav class="pr-3">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="#resourcepage">Resource</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+    
+                </ul>
+            </nav>
+
+    </footer>
+  
+</body>
+</html>
