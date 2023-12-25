@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+   <link rel="stylesheet" href="src/main.css">
+</head>
+<body>
+    <header class="sticky-top bg-dark text-white">
+        <section class="d-flex justify-content-between align-items-center py-2 py-lg-0 px-4">
+          <h1 class="text-xl mb-0 text-uppercase">Iman</h1>
+          <button class="position-relative d-lg-none" id="toggleButton">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </section>
+        <nav class="d-none d-lg-flex justify-content-lg-end" id="navMenu">
+          <ul class="nav flex-column flex-lg-row justify-content-lg-end align-lg-center">
+            <li class="nav-item"><a href="home.html" class="nav-link text-white">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link text-white">About me</a></li>
+            <li class="nav-item"><a href="#workpage" class="nav-link text-white">Work</a></li>
+            <li class="nav-item"><a href="resource.html" class="nav-link text-white">Resource</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+
+
+   <main>
+    <section class="workpage bg-light pb-5 mb-5" id="Work">
+        <h2 class="workpage__heading display-6 text-center mb-3 fw-bold pt-3">Welcome to my work</h2>
+        <p class="workpage__description mb-5 pl-3 pr-3 text-center fs-5">In my current role as a Senior Software Engineer at XYZ Tech Solutions, I play a vital role in developing innovative software solutions for our clients in the technology industry. I am responsible for leading the development team, overseeing project timelines, and ensuring the successful delivery of high-quality software products.</p>
+      <div class="container my-3 py-6">
+        <section class="workpage__project project row my-3 py-6 fs-5">
+            <div class=" pl-3 col-lg-6  my-3 py-6">
+                <h2 class="project__heading h4 text-center mb-2 ">Projects</h2>
+                <article class="project__article">
+                    <h3 class="project__title h4 text-center">Cardio Care Website</h3>
+                    <p class="project__description text-center">Description: Developed a responsive patient care system with HTML, CSS, and JavaScript. Implemented features like a product catalog, cart functionality, and user authentication.</p>
+                </article>
+                <article class="project__article">
+                    <h3 class="project__title h4 text-center">E-commerce Website</h3>
+                    <p class="project__description text-center">Description: Developed a responsive e-commerce website using React and integrated it with a payment gateway. Implemented features like a product catalog, cart functionality, and user authentication.</p>
+                </article>
+            </div>
+
+            <aside class="project__aside ml-5 mt-6 pl-3 pr-3 col-lg-6 text-center  my-3 py-6">
+                
+                <img src="img/download.jpg" alt="my mentor" width="200" height="200" class="project__image">
+                <p class="project__mentor">My mentor John is a passionate web developer specializing in front-end technologies. He loves creating engaging user experiences that combine form and function.</p>
+            </aside>
+        </section>
+    </div>
+<div class="container pt-3">
+        <section class="education row">
+            <h2 class="education__head title mr-3 pr-3 col-lg-4 text-center">Education</h2>
+            <div class="col-lg-8">
+            <table class="education__table table table-bordered">
+                <tr>
+                    <th>Certification</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Bachelor of Science in Software Engineering</td>
+                    <td>Addis Ababa University</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Certification in Web Design</td>
+                    <td>Addis Training Center</td>
+                    <td>2020</td>
+                </tr>
+            </table>
+            
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="skill row">
+            <section class="skillonly ml-3 mb-5 col-lg-4 mt-3">
+                <ul class="skillonly__list h4">
+                    <h4 class="skillonly__heading display-4">Skills</h4>
+                    <li class="h5">photography
+                        <ul>
+                            <li class="ml-4 list-unstyled">art</li>
+                            <li class="ml-4 list-unstyled">painting</li>
+                        </ul>
+                    </li>
+                    <li class="h5">Writing
+                        <ul>
+                            <li class="ml-4 list-unstyled">left handwriting</li>
+                            <li class="ml-4 list-unstyled">right handwriting</li>
+                        </ul>
+                    </li>
+                    <li class="h5">coding</li>
+                </ul>
+            </section>
+            <button class="skill__button btn border-0 text-primary btn-lg col-lg-4 fs-1" onclick="location.href='mailto:imanibrahim301@gmail.com'">hire me</button>
+            <p class="skill__quote pl-3 pr-3 mb-6 col-6 mt-5 pb-5 mb-5 col-lg-4 display-6"><q class="skill__quote-text">Let's collaborate on your next project! Contact me to discuss how I can help bring your ideas to life.</q></p>
+        </section>
+    </section>
+</div>
+</main>
+
+   
+   <footer class="d-flex justify-content-between bg-black text-gray-400 align-items-center fixed-bottom w-100">
+    <h1 class="logo text-uppercase font-weight-bold fs-4 pl-2 ml-2 text-white">Iman</h1>
+    <p class="text-white">&copy; 2023 Iman. All rights reserved.</p>
+    <nav class="pr-3">
+      <ul class="list-unstyled">
+        <li><a href="#home" class="text-white">Home</a></li>
+        <li><a href="about.html" class="text-white">About me</a></li>
+        <li><a href="work.html" class="text-white">Work</a></li>
+        <li><a href="resource.html" class="text-white">Resource</a></li>
+        <li><a href="contact.html" class="text-white">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="javas.js"></script>
+    
+</body>
+</html>
+
+
